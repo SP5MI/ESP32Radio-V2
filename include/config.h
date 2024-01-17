@@ -13,12 +13,12 @@
 
 #define FIXEDWIFI "SSID-11/PW12345"                       // Add a fixed SSID to the list (WiFi only)
 
-//#define ENABLEOTA                                       // OTA feature
+#define ENABLEOTA                                       // OTA feature
 
 // Define (just one) type of MP3/AAC decoder
-#define DEC_VS1053                                        // Hardware decoder for MP3, AAC, OGG
+//#define DEC_VS1053                                        // Hardware decoder for MP3, AAC, OGG
 //#define DEC_VS1003                                      // Hardware decoder for MP3 only
-//#define DEC_HELIX                                       // Software decoder for MP3, AAC. I2S output
+#define DEC_HELIX                                       // Software decoder for MP3, AAC. I2S output
 //#define DEC_HELIX_AI                                    // Software decoder for AI Audio kit (AC101)
 //#define DEC_HELIX_INT                                   // Software decoder for MP3, AAC. DAC output
                                                           // Needs platform = espressif32@3.1.0 !!!!
