@@ -154,7 +154,7 @@
   #include "VS1053.h"                                     // Driver for VS1053
 #endif
 #define FSIF              true                            // Format SPIFFS if not existing
-#define QSIZ              600                             // Number of entries in the MP3 stream queue
+#define QSIZ              400                             // Number of entries in the MP3 stream queue
 #define NVSBUFSIZE        150                             // Max size of a string in NVS
 // Access point name if connection to WiFi network fails.  Also the hostname for WiFi and OTA.
 // Note that the password of an AP must be at least as long as 8 characters.
