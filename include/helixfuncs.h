@@ -5,8 +5,8 @@
 #define player_AdjustRate(a)                         // Not supported function
 #define player_setTone(a)                            // Not supported function
 
-#define FRAMESIZE               3200                 // Max. frame size in bytes (mp3 and aac)
-#define OUTSIZE                 4096                 // Max number of samples per channel (mp3 and aac)
+#define FRAMESIZE               1600                 // Max. frame size in bytes (mp3 and aac)
+#define OUTSIZE                 2048                 // Max number of samples per channel (mp3 and aac)
 
 extern bool      muteflag ;                          // True if output must be muted
 extern String    audio_ct ;                          // Content type, like "audio/aacp"

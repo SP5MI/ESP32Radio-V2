@@ -1,0 +1,60 @@
+clk_dst = 1                                          # Offset during daylight saving time (hours)
+clk_offset = 1                                       # Offset with respect to UTC in hours
+clk_server = pool.ntp.org                            # Time server to be used
+#
+debug = 1
+#
+ir_00FF = station = mp3.polskieradio.pl:8950
+ir_10EF = station = stream.rcs.revma.com/1nnezw8qz7zuv
+ir_18E7 = uppreset = 1
+ir_20DF = station = mp3.polskieradio.pl:8966
+ir_28D7 = sleep
+ir_40BF = station = mp3.polskieradio.pl:8954
+ir_50AF = mute
+ir_58A7 = downpreset = 1
+ir_609F = station = audio.radiownet.pl:8000/stream64
+ir_708F = downvolume = 1
+ir_807F = station = mp3.polskieradio.pl:8952
+ir_906F = station = mp3.polskieradio.pl:8480
+ir_A05F = station = radiomaryja.fastcast4u.com/proxy/radiomaryja?mp=/1
+ir_C03F = station = mp3.polskieradio.pl:8956
+ir_E01F = station = live.r357.eu
+ir_F807 = upvolume = 1
+#
+mqttbroker = 192.168.1.100
+mqttpasswd = M66nfC7xR3n0Jn9
+mqttport = 1883
+mqttprefix = ESP32Radio
+mqttuser = mosquito
+#
+ota = 1
+#
+pin_enc_clk = 19                                     # GPIO Pin number for rotary encoder "CLK"
+pin_enc_dt = 22                                      # GPIO Pin number for rotary encoder "DT"
+pin_enc_sw = 13                                      # GPIO Pin number for rotary encoder "SW"
+pin_i2s_bck = 27                                     # GPIO Pin number for I2S "BCK"
+pin_i2s_din = 25                                     # GPIO Pin number for I2S "DIN"
+pin_i2s_lck = 26                                     # GPIO Pin number for I2S "L(R)CK"
+pin_ir = 35 # GPIO Pin number for IR receiver VS1838
+pin_tft_cs = 15                                      # GPIO Pin number for TFT "CS"
+pin_tft_dc = 5                                       # GPIO Pin number for TFT "DC"
+#
+preset = 7
+preset_000 = mp3.polskieradio.pl:8480 # 0 - Polskie Radio 24
+preset_001 = mp3.polskieradio.pl:8950 # 1 - Jedynka Polskie Radio
+preset_002 = mp3.polskieradio.pl:8952 # 2 - Dwojka Polskie Radio
+preset_003 = mp3.polskieradio.pl:8954 # 3 - Trojka Polskie Radio
+preset_004 = mp3.polskieradio.pl:8956 # 4 - Czworka Polskie Radio
+preset_005 = mp3.polskieradio.pl:8966 # 5 - Radio Dzieciom
+preset_006 = radiomaryja.fastcast4u.com/proxy/radiomaryja?mp=/1 # 6 - Radio Maryja
+preset_007 = audio.radiownet.pl:8000/stream64 # 7 - Radio Wnet
+preset_008 = live.r357.eu # 8 - Radio 357
+preset_009 = stream.rcs.revma.com/ypqt40u0x1zuv # 9 - Radio Nowy Swiat
+preset_010 = stream.rcs.revma.com/1nnezw8qz7zuv # 10 - MUZO.FM
+#
+toneha = 10
+tonehf = 10
+tonela = 0
+tonelf = 0
+#
+volume = 32

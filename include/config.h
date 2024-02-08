@@ -11,7 +11,7 @@
 
 //#define ETHERNET                                        // For wired Ethernet (WT32-ETH-01 or similar)
 
-#define FIXEDWIFI "SSID-11/PW12345"                       // Add a fixed SSID to the list (WiFi only)
+#define FIXEDWIFI "SSID__222/*********PWD12345*"                       // Add a fixed SSID to the list (WiFi only)
 
 #define ENABLEOTA                                       // OTA feature
 
