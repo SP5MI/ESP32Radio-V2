@@ -29,7 +29,7 @@ mqttuser = mosquito
 #
 ota = 1
 #
-pin_enc_clk = 19                                     # GPIO Pin number for rotary encoder "CLK"
+pin_enc_clk = 4                                     # GPIO Pin number for rotary encoder "CLK"
 pin_enc_dt = 22                                      # GPIO Pin number for rotary encoder "DT"
 pin_enc_sw = 13                                      # GPIO Pin number for rotary encoder "SW"
 pin_i2s_bck = 27                                     # GPIO Pin number for I2S "BCK"
